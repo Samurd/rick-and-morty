@@ -1,0 +1,158 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 10px 0;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+nav input {
+  border: none;
+  padding: .2rem .8rem;
+  outline: none;
+  font-size: 1rem;
+  border-radius: 10px;
+  width: 90%;
+  height: 40px;
+}
+
+nav button {
+  border: none;
+  margin: 10px 5px;
+  font-size: 1rem;
+  width: 90%;
+  padding: .2rem;
+  cursor: pointer;
+  background-color: white;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.container-location-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.container-location {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  width: 90%;
+  padding: 1rem;
+  background-color: #062226;
+  border-radius: 15px;
+}
+
+.container-location {
+  max-width: 790px;
+}
+
+.lc {
+  margin: 5px 0;
+}
+
+.lc h2 {
+  color: #c5c5c5;
+}
+
+.cards {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 1rem;
+}
+
+.container-card {
+  background-color: #062226;
+  width: 90%;
+  height: 590px;
+  max-width: 290px;
+  margin: 10px 5px;
+  position: relative;
+  overflow: hidden;
+}
+
+.container-status {
+  position: absolute;
+  background-color: #062226;
+  height: 5%;
+  border-radius: 0px 10px 10px 0px;
+  top: 10px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: .5rem;
+}
+
+.container-status span {
+  height: 10px;
+  width: 10px;
+  display: block;
+  border-radius: 100%;
+}
+
+.container-status h3 {
+  font-size: .9rem;
+}
+
+.container-name {
+  padding: .5rem;
+}
+
+.container-name h2 {
+  font-size: 1.5rem;
+}
+
+.container-info {
+  padding: .5rem;
+}
+
+.container-info h4 {
+  color: #7E7E7E;
+}
+
+.container-info h3 {
+  font-weight: bold;
+}
+
+img {
+  width: 100%;
+}
+
+@media screen and (min-width: 720px) {
+  nav input {
+    padding: .2rem .8rem;
+    width: 30%;
+    height: 30px;
+  }
+  
+  nav button {
+    margin: 10px 10px;
+    width: 7%;
+  }
+
+  .container-location {
+    flex-direction: row;
+    gap: 4rem;
+  }
+
+  .lc {
+    text-align: center;
+  }
+
+
+}
