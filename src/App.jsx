@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { useState, useEffect } from 'react'
 import { ResidentInfo } from './components/ResidentInfo';
-import { LocationInfo } from './components/locationInfo';
+import { LocationInfo } from './components/LocationInfo';
 import './App.css'
 
 function App() {
